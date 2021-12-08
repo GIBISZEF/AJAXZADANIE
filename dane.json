@@ -3,12 +3,12 @@
         "id":1,
         "name":"Tatry",
         "title":"Piękne tatry",
-        "img":"<img src='tatry.jpg'>"
+        "img":"<img src='tatry.jpg' width='350px' height='250px'>"
     },
     {
         "id":2,
         "name":"Bieszczady",
         "title":"Piękne bieszczady",
-        "img":"<img src='bieszczady.jfif'>"
+        "img":"<img src='bieszczady.jfif' width='350px' height='250px'>"
     }
 ]
