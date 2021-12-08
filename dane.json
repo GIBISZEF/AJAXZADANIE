@@ -1,12 +1,14 @@
 [
     {
         "id":1,
-        "name":"",
-        "title":""
+        "name":"Tatry",
+        "title":"",
+        "img":""
     },
     {
         "id":2,
-        "name":"",
-        "email":""
+        "name":"Bieszczady",
+        "title":"",
+        "img":""
     }
 ]

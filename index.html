@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AJAX - Ćwiczenia - pobieranie z pliku users.json</title>
+    <title>AJAX - Ćwiczenia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>USERS</h1>
-    <button id="przycisk">Ładuj users.json</button>
+    <button id="przycisk">Ładuj</button>
     <div id="user"></div>
     <script type="text/javascript">
 
@@ -16,7 +17,7 @@
 
         function laduj(){
             var XHR = new XMLHttpRequest();
-            XHR.open('GET', 'users.json', true);
+            XHR.open('GET', 'dane.json', true);
 
             XHR.onload = function(){
                 if(this.status == 200){
