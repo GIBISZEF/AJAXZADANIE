@@ -10,5 +10,17 @@
         "name":"Bieszczady",
         "title":"Piękne bieszczady",
         "img":"<img src='bieszczady.jfif' width='350px' height='250px'>"
+    },
+    {
+        "id":3,
+        "name":"Karpaty",
+        "title":"Piękne Karpaty",
+        "img":"<img src='karpaty.jpg' width='350px' height='250px'>"
+    },
+    {
+        "id":4,
+        "name":"Beskidy",
+        "title":"Piękne Beskidy",
+        "img":"<img src='beskidy.jfif' width='350px' height='250px'>"
     }
 ]
