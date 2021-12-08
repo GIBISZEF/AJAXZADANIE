@@ -6,10 +6,3 @@ body,html{
 h1{
     text-align: center;
 }
-button{
-    font-size: 25px;
-    margin-left: 70px;
-}
-.dane{
-    display: flex;
-}
