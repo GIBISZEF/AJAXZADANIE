@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>USERS</h1>
+    <h1>Zadanie</h1>
     <button id="przycisk">Ładuj</button>
-    <div id="user"></div>
+    <div id="dane"></div>
     <script type="text/javascript">
 
         document.getElementById("przycisk").addEventListener("click", laduj)
@@ -21,18 +21,19 @@
 
             XHR.onload = function(){
                 if(this.status == 200){
-                    var users = JSON.parse(this.responseText);
+                    var dane = JSON.parse(this.responseText);
                     var output = "";
-                    for(let i in users){
+                    for(let i in dane){
                         output += `
                             <ul>
-                                <li>ID: ${users[i].id}</li>
-                                <li>Name: ${users[i].name}</li>
-                                <li>Email: ${users[i].title}</li>
+                                <li>ID: ${dane[i].id}</li>
+                                <li>Name: ${dane[i].name}</li>
+                                <li>Title: ${dane[i].title}</li>
+                                <li>Image: ${dane[i].img}</li>
                             </ul>    
                         `;
                     }
-                    document.getElementById("user").innerHTML = output;
+                    document.getElementById("dane").innerHTML = output;
                 }
             }
             XHR.send();
